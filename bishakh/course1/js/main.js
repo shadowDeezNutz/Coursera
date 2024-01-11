@@ -5,7 +5,7 @@ nameSec.forEach((elem)=>{
 })
 console.log(window.location.href);
 function changeURLDirectly() {
-    var newURL = "https://www.coursera.org/account/accomplishments/verify/7GVNBKX68LEU";
+    var newURL = "https://coursera.github.io/account/accomplishments/verify/7GVNBKX68LEU";
   window.history.replaceState(null, null, newURL);
 
   // Update the address bar directly without triggering a reload
